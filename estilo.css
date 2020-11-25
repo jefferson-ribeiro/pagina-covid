@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(58, 59, 59);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#cabecalho{
+    border: black 3px solid;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+    text-align: center;
+    box-shadow: black 2px 2px 2px;
+}
+
+h1{
+
+}
+
+#conteudo{
+    background-color: antiquewhite;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 3%;
+}
