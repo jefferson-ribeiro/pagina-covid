@@ -13,13 +13,120 @@ body {
     box-shadow: black 2px 2px 2px;
 }
 
-h1{
-
-}
-
 #conteudo{
     background-color: antiquewhite;
     margin-left: 5%;
     margin-right: 5%;
     padding: 3%;
 }
+
+a {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    text-decoration: unset ;
+    
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}  
+
+#logosite{
+    width: 100%;
+   
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    text-shadow: cornflowerblue 2px 2px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+}
+
+#tituloDestaque{
+    display: flex;
+    justify-content: center;
+    text-shadow: cornflowerblue 2px 2px 5px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.imagemnot1{
+    width: 35%;
+    display: table;
+    float: left;
+    padding-right: 20px;
+}
+
+.textonot1{
+    margin-left: 20px;
+}
+
+p{
+    font-size: 19pt;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+hr {
+    color: black;
+    background-color: black;
+    height: 5px;
+  }
+
+#traco {
+    border-top: 1px dashed #f00;
+    border-bottom: 1px solid #f00;
+    color: #fff;
+    background-color: #fff;
+    height: 4px;
+  }
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.social{
+    width: 40px;
+    font-family: serif;
+    color: gray;
+}
+
+form{
+    font-size: 16px;
+    background: #CCC;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 10px 10px 10px;
+    }
+
+input, textarea{
+    width: 474px;
+    padding: 10px;
+        }
+
+.enviar input {
+background-color: #069;
+height: 40px;
+width: 150px;
+font-weight: bold;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border: 1px solid;
+color: #FFF;
+cursor: pointer;
+            }
+
+.enviar input:hover{
+background: #078;
+}
+
+textarea {
+width: 474px;
+height: 120px;
+line-height: 20px;
+resize: none;
+  }
